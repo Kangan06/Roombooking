@@ -77,7 +77,7 @@ public class TestApp {
 	@POST
 	@Path("/getRoomById")
 	@Consumes("application/x-www-form-urlencoded")
-    @Produces(MediaType.TEXT_PLAIN)
+    @Produces(MediaType.APPLICATION_JSON)
 	public void getRoomById(@Suspended final AsyncResponse asyncResponse ,@FormParam("id") long id) {
 		MeetingRoom room = MeetingRoomDAO.getMeetingRoom(id);
 		asyncResponse.resume(room);

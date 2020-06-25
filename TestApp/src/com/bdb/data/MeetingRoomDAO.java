@@ -73,7 +73,7 @@ public class MeetingRoomDAO {
 		 final int lastCharIndex = ca.length - 1;
 		 ca[lastCharIndex]++;
 		 List<MeetingRoom> Mrooms = new ArrayList<MeetingRoom>();
-		 EntityCursor<MeetingRoom> rooms = roomByBuilding.entities(name,true,String.valueOf(ca),false);
+		 EntityCursor<MeetingRoom> rooms = roomByName.entities(name,true,String.valueOf(ca),false);
 		 try {
 			 for(MeetingRoom r: rooms) {
 				 Mrooms.add(r);
