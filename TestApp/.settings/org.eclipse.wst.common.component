@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="TestApp">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="org.osgi.core-4.2.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/org.osgi.core-4.2.0/org.osgi.core-4.2.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="validation-api-1.1.0.Final.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/validation-api-1.1.0.Final/validation-api-1.1.0.Final">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-container-servlet.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jersey-container-servlet/jersey-container-servlet">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-media-jaxb.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jersey-media-jaxb/jersey-media-jaxb">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-databind-2.8.4.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jackson-databind-2.8.4/jackson-databind-2.8.4">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-jaxrs-json-provider-2.8.4.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jackson-jaxrs-json-provider-2.8.4/jackson-jaxrs-json-provider-2.8.4">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hk2-api-2.5.0-b32.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hk2-api-2.5.0-b32/hk2-api-2.5.0-b32">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-core-2.8.4.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jackson-core-2.8.4/jackson-core-2.8.4">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javassist-3.20.0-GA.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javassist-3.20.0-GA/javassist-3.20.0-GA">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="je-7.5.11.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/je-7.5.11/je-7.5.11">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="persistence-api-1.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/persistence-api-1.0/persistence-api-1.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.ws.rs-api-2.0.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javax.ws.rs-api-2.0.1/javax.ws.rs-api-2.0.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jaxb-api-2.2.7.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jaxb-api-2.2.7/jaxb-api-2.2.7">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hk2-utils-2.5.0-b32.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hk2-utils-2.5.0-b32/hk2-utils-2.5.0-b32">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.servlet-api-3.0.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javax.servlet-api-3.0.1/javax.servlet-api-3.0.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-client.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jersey-client/jersey-client">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-common.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jersey-common/jersey-common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hk2-locator-2.5.0-b32.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hk2-locator-2.5.0-b32/hk2-locator-2.5.0-b32">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-annotations-2.8.4.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jackson-annotations-2.8.4/jackson-annotations-2.8.4">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.inject-2.5.0-b32.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javax.inject-2.5.0-b32/javax.inject-2.5.0-b32">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="java-json.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/java-json/java-json">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-server.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jersey-server/jersey-server">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="aopalliance-repackaged-2.5.0-b32.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/aopalliance-repackaged-2.5.0-b32/aopalliance-repackaged-2.5.0-b32">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.annotation-api-1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javax.annotation-api-1.2/javax.annotation-api-1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-guava-2.25.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jersey-guava-2.25.1/jersey-guava-2.25.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ojdbc6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/ojdbc6/ojdbc6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="osgi-resource-locator-1.0.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/osgi-resource-locator-1.0.1/osgi-resource-locator-1.0.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-media-json-jackson-2.24.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jersey-media-json-jackson-2.24/jersey-media-json-jackson-2.24">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-container-servlet-core.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jersey-container-servlet-core/jersey-container-servlet-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-module-jaxb-annotations-2.8.4.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jackson-module-jaxb-annotations-2.8.4/jackson-module-jaxb-annotations-2.8.4">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-jaxrs-base-2.8.4.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jackson-jaxrs-base-2.8.4/jackson-jaxrs-base-2.8.4">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="TestApp"/>
+        <property name="java-output-path" value="/TestApp/build/classes"/>
+    </wb-module>
+</project-modules>
